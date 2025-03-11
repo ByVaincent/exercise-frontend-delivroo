@@ -24,7 +24,7 @@ const Menus = ({ datas }) => {
                     <div>
                       {categoryItems.map((item) => {
                         return (
-                          <div className="menu" key={item.uid}>
+                          <div className="menu" key={item.uid} id={item.id}>
                             <div>
                               <h4>{item.name}</h4>
                               <div className="description">
