@@ -1,0 +1,25 @@
+header {
+  border-bottom: 1px solid #00ccbc;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+header div img {
+  width: 150px;
+}
+
+.search-bar {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.user-tools {
+  display: flex;
+  gap: 10px;
+}

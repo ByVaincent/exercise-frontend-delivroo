@@ -1,0 +1,33 @@
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+nav div {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  padding: 20px 0;
+}
+
+nav div::-webkit-scrollbar {
+  display: none;
+}
+nav div a {
+  flex-shrink: 0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  transition: all ease 0.3s;
+}
+
+nav div a:first-child {
+  color: white;
+  background-color: #00ccbc;
+}
+
+nav div a:hover {
+  color: white;
+  background-color: #00ccbc;
+}

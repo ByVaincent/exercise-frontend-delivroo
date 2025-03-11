@@ -1,0 +1,67 @@
+@import url("./assets/fonts/Deliveroo-fonts/fonts.css");
+@import url("./assets/fonts/Deliveroo-icons/style.css"); /* icons*/
+@import url("./assets/css/header.css");
+@import url("./assets/css/header-shop.css");
+
+body {
+  font-family: "IBM Plex Sans";
+}
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+i {
+  color: #00ccbc;
+  font-size: 1.5em;
+}
+
+a {
+  color: #00ccbc;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #00ccbc;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid #009689;
+}
+
+button i {
+  margin-right: 0.3em;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+main {
+  background-color: #f9fafa;
+}

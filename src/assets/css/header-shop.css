@@ -1,0 +1,38 @@
+.shop {
+  background-color: white;
+}
+
+.restaurant {
+  display: flex;
+  gap: 20px;
+}
+
+.restaurant img {
+  width: 30%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.infos-restaurant {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infos-restaurant span {
+  margin-left: 0.3em;
+}
+
+.restaurant p {
+  margin-bottom: 0.5em;
+}
+
+.infos-restaurant div:nth-child(2) {
+  width: 30%;
+}
+
+.shop div a:first-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 20px 0;
+}
