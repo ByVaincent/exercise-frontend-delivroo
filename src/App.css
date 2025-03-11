@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 i {
@@ -64,4 +65,8 @@ h4 {
 
 main {
   background-color: #f9fafa;
+}
+
+.loader {
+  width: 500px;
 }

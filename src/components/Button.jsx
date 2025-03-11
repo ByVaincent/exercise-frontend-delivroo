@@ -1,6 +1,6 @@
-const Button = ({ icon, text }) => {
+const Button = ({ icon, text, disabled }) => {
   return (
-    <button>
+    <button disabled={disabled || false}>
       <i className={icon}></i>
       <span>{text}</span>
     </button>

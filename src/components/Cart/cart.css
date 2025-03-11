@@ -1,0 +1,90 @@
+/* CARD CSS */
+
+.cart-aside {
+  width: 30%;
+  align-self: self-start;
+  position: sticky;
+  top: 80px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px 10px;
+  min-height: 500px;
+}
+
+.cart-aside button {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00ccbc;
+  color: white;
+  margin-top: 20px;
+}
+
+.cart {
+  border-bottom: 1px solid #00ccbc;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+.articles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.articles div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.articles span:first-of-type {
+  flex: 1;
+}
+
+.articles i:hover {
+  cursor: pointer;
+}
+
+.partial-total-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  width: 90%;
+  border-bottom: 1px solid #00ccbc;
+}
+
+.partial-total,
+.shipping-costs,
+.total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  width: 90%;
+  padding: 10px 0;
+}
+
+.icon-cart {
+  font-size: 8em;
+}
+
+.empty-cart {
+  justify-content: center;
+}
+
+.icon-cross:hover {
+  opacity: 0.5;
+}
